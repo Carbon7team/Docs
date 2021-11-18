@@ -1,0 +1,101 @@
+\begin{center}
+    \textbf{Ciclo di vita di un documento e versionamento}
+\end{center}
+
+\section{Documenti}
+Ogni documento è successione di date fasi di vita, quali:
+
+\begin{enumerate}
+    \item \textbf{Pianificazione} \\
+    Si identificano le necessità del documento, per delinearne il contenuto fondamentale.
+    \item \textbf{Redazione} \\
+    Viene costruito lo scheletro del documento e messo per esteso da un redattore/autore. La prima stesura cerca di coprire tutte le necessità richieste, fornendo un contenuto quanto più completo.
+    \item \textbf{Revisione} \\
+    Il documento previa Redazione, viene revisionato sul lato grammaticale e di contenuto. In caso di errori il documento tornerà alla fase precedente per essere così aggiornato e corretto.
+    \item \textbf{Approvazione} \\
+    Il documento viene assunto come revisionato e pertanto corretto in forma e contenuto; viene dunque pubblicato e reso disponibile.\\
+\end{enumerate}
+
+Ogni documento dovrà essere essere soggetto a versionamento, nella forma $x.y.z$.\\
+
+Il versionamento è definito come segue:
+\begin{itemize}
+    \item Numero $z$\\
+    Tale numero verrà aggiornato ogni qual volta verrà effettuata una stesura del documento.
+    \item Numero $y$\\
+    Tale numero verrà aggiornato ogni qual volta verrà effettuata una revisione del documento.
+    \item Numero $x$\\
+    Tale numero verrà aggiornato ogni qual volta verrà effettuata una approvazione del documento.\\
+\end{itemize}
+ 
+La versione di ogni documento partirà, pertanto, dalla $0.0.1$.\\
+
+Ogni documento sarà quindi composto da un nome seguito dalla sua attuale versione.\\
+Ogni documento dovrà avere la sua cartella, con i file in \LaTeX e relativo contenuto.
+La cartella contenente i file dei singoli documenti dovrà essere strutturata come segue:\
+\begin{itemize}
+    \item Nome cartella: <nomeDocumento> <versione>\\
+    \item Contenuto cartella:\\
+    \begin{itemize}
+        \item file main.tex
+        \item cartella res, cui contenuto è composto da:
+        \begin{itemize}
+            \item cartella con il logo del Team
+            \item copertina nella forma copertina <nomeDocumento>.tex
+            \item file di contenuto nella forma <contenuto> <infoaggiuntiva> <versione>.tex
+        \end{itemize}
+    \end{itemize}
+\end{itemize}
+
+La copertina di ogni documento dovrà avere i seguenti elementi:\\
+\begin{enumerate}
+    \item Destinazione del documento: Interno o Esterno
+    \item Logo del Carbon7team
+    \item Info di contatto del Team
+    \item Data ultimo versionamento
+    \item Titolo del documento
+    \item Elenco dei redattori/autori
+    \item Elenco dei revisori
+    \item Sommario
+\end{enumerate}
+
+Ad eccezione del documento di Candidatura, dove a seguito del Titolo del documento vi saranno i componenti del gruppo e un sommario.
+
+\subsection{Verbali}
+I verbali, sia in forma interna che esterna, non sono soggetti al versionamento, in quanto non soggetti a modifiche nel tempo.\\ 
+Quest'ultimi dovranno sempre essere caricati sia come documento in \LaTeX sia come PDF nella Repository, al percorso Docs/Interni/Verbali.
+La cartella contenente i file relativi ad ogni singolo verbale dovrà essere strutturata come segue:\\
+\begin{itemize}
+    \item Nome cartella: verbale  <interno/esterno>  <azienda/gruppo>  <data>\\
+    \item Contenuto cartella:\\
+    \begin{itemize}
+        \item file: main.tex
+        \item cartella res, cui contenuto è composto da:
+        \begin{itemize}
+            \item cartella con il logo del Team
+            \item copertina nella forma copertina <data>.tex
+            \item file di contenuto nella forma contenuto <infoaggiuntiva> <data>.tex
+        \end{itemize}
+    \end{itemize}
+\end{itemize}
+
+La copertina di ogni verbale dovrà avere i seguenti elementi:\\
+\begin{enumerate}
+    \item Intestazione Verbale
+    \item Logo del Carbon7team
+    \item Info di contatto del Team
+    \item Data a cui fa riferimento il verbale
+    \item Titolo del documento
+    \item Elenco dei presenti
+    \item Elenco degli assenti
+    \item Redattore/autore
+\end{enumerate}
+
+Ogni verbale nel suo contenuto sarà nella forma : Questioni - Conclusioni.
+Avrà infine un breve paragrafo dedito a delle considerazioni finali.
+
+
+
+\begin{lstlisting}
+main_alalal.tex
+\end{lstlisting}

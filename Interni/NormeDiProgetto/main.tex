@@ -1,0 +1,47 @@
+\documentclass[a4paper,11pt]{article}
+
+\usepackage[utf8x]{inputenc}
+\usepackage[italian]{babel}
+\usepackage[T1]{fontenc}
+
+\usepackage{bookmark}
+\usepackage{listings}
+\lstset{
+  showstringspaces=false,
+  columns=flexible,
+  basicstyle={\small\ttfamily},
+  numbers=none,
+  numberstyle=\tiny\color{gray},
+  keywordstyle=\color{blue},
+  commentstyle=\color{dkgreen},
+  stringstyle=\color{mauve},
+  tabsize=3
+}
+
+\usepackage{tabularx}
+\usepackage{longtable}
+\usepackage{array}
+\newcolumntype{P}[1]{>{\arraybackslash}p{#1}}
+\newcolumntype{M}[1]{>{\arraybackslash}m{#1}}
+
+\usepackage{color, colortbl}
+\definecolor{Gray}{gray}{0.9}
+
+\usepackage{amsmath}
+\usepackage{graphicx}
+\usepackage{hyperref}
+
+\usepackage{comment}
+\usepackage{geometry}
+
+\geometry{
+    a4paper, top=3cm, bottom=3cm, left=2cm,
+    right=2cm, heightrounded, bindingoffset=5mm
+}
+
+\newcommand{\HRule}{\rule{\linewidth}{0.5mm}}
+
+\begin{document}
+\input{./res/titlepage_normediprogetto_v0.0.1.tex}
+\input{./res/contenuto_normediprogetto_v0.0.1.tex}
+\end{document}
