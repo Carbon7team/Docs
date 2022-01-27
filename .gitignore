@@ -21,6 +21,9 @@
 *.mtc
 *.mtc1
 *.out
+*.tex
+*.tex.bak
+*.synctex(busy)
 *.synctex.gz
 *.fdb_latexmk
 *.DS_Store
