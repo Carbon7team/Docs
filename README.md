@@ -9,4 +9,6 @@ I documenti sono suddivisi in base alla loro categorizzazione [interna](https://
 Per maggiori dettagli leggere le [Norme Di Progetto](https://github.com/Carbon7team/Docs/tree/main/Interni/NormeDiProgetto) alla versione più aggiornata.
 Riferimenti a termini e vocaboli si possono trovare nel [Glossario dei Termini](https://github.com/Carbon7team/Docs/tree/main/Esterni/Glossario).
 
+# Fasi
 
+- [RTB](https://github.com/Carbon7team/Docs/tree/main/RTB)
