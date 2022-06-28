@@ -12,3 +12,4 @@ Riferimenti a termini e vocaboli si possono trovare nel [Glossario dei Termini](
 # Fasi
 
 - [RTB](https://github.com/Carbon7team/Docs/tree/main/RTB)
+- [PB](https://github.com/Carbon7team/Docs/tree/main/PB)
